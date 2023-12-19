@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Crud {
 	 static String url = "jdbc:mysql://localhost:3306/company";
      static String Urname= "root";
-     static String urpassword = "girija";
+     static String urpassword = "urpwd";
      
      
      public static void insert(Connection con,String name,int pass) throws SQLException {
